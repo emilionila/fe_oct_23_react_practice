@@ -1,57 +1,55 @@
-import React from "react";
+import React from 'react';
 
-export const TableHead = () => {
-  return (
-    <thead>
+export const TableHead = () => (
+  <thead>
     <tr>
       <th>
-                <span className="is-flex is-flex-wrap-nowrap">
-                  ID
+        <span className="is-flex is-flex-wrap-nowrap">
+          ID
 
-                  <a href="#/">
-                    <span className="icon">
-                      <i data-cy="SortIcon" className="fas fa-sort" />
-                    </span>
-                  </a>
-                </span>
+          <a href="#/">
+            <span className="icon">
+              <i data-cy="SortIcon" className="fas fa-sort" />
+            </span>
+          </a>
+        </span>
       </th>
 
       <th>
-                <span className="is-flex is-flex-wrap-nowrap">
-                  Product
+        <span className="is-flex is-flex-wrap-nowrap">
+          Product
 
-                  <a href="#/">
-                    <span className="icon">
-                      <i data-cy="SortIcon" className="fas fa-sort-down" />
-                    </span>
-                  </a>
-                </span>
+          <a href="#/">
+            <span className="icon">
+              <i data-cy="SortIcon" className="fas fa-sort-down" />
+            </span>
+          </a>
+        </span>
       </th>
 
       <th>
-                <span className="is-flex is-flex-wrap-nowrap">
-                  Category
+        <span className="is-flex is-flex-wrap-nowrap">
+          Category
 
-                  <a href="#/">
-                    <span className="icon">
-                      <i data-cy="SortIcon" className="fas fa-sort-up" />
-                    </span>
-                  </a>
-                </span>
+          <a href="#/">
+            <span className="icon">
+              <i data-cy="SortIcon" className="fas fa-sort-up" />
+            </span>
+          </a>
+        </span>
       </th>
 
       <th>
-                <span className="is-flex is-flex-wrap-nowrap">
-                  User
+        <span className="is-flex is-flex-wrap-nowrap">
+          User
 
-                  <a href="#/">
-                    <span className="icon">
-                      <i data-cy="SortIcon" className="fas fa-sort" />
-                    </span>
-                  </a>
-                </span>
+          <a href="#/">
+            <span className="icon">
+              <i data-cy="SortIcon" className="fas fa-sort" />
+            </span>
+          </a>
+        </span>
       </th>
     </tr>
-    </thead>
-  )
-}
+  </thead>
+);
